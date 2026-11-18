@@ -19,11 +19,25 @@ Aplicação Low Code focada em analisar dados reais de vendas do varejo, convert
 
 ---
 
-## 🛠️ Tecnologias Utilizadas (Planejadas)
-* **Linguagem / Tratamento:** ???
-* **Low Code / Dashboard:** ???
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem / Tratamento:** Python e pandas
+* **Dashboard e gráficos:** Streamlit e Plotly
 * **Gestão Ágil:** GitHub Projects (Scrum)
 * **Versionamento:** Git & GitHub
+
+## ▶️ Como executar
+Instale as dependências na pasta do projeto:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+O dashboard lê `vendas.csv` usando `;` como separador e `utf-8-sig` como encoding.
+Os filtros de categoria e produto usam as colunas `Categoria` e `Produto`.
+A seção Produtos é gerada a partir dos produtos presentes nesse arquivo.
+Para habilitar o filtro de período e o histórico de faturamento, inclua uma coluna
+de data ou mês no CSV.
 
 ---
 
