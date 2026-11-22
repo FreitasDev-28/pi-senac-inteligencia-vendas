@@ -1,6 +1,6 @@
 ﻿Data do Pedido;Categoria;Produto;Quantidade;Custo;Vendas;;;;;;;;
 01/01/17;Material de Escritório;Enermax cartões de anotações, premium;3;9,00;45,00;;;;;;;;
-03/01/17;Móveis;Dania estante de canto, tradicional;7;255,00;854,00;;;;;;;;
+03/01/17;Móveis;Dania estante de canto, tradicional;7;255,00;854,00;;;;;;;;;
 04/01/17;Material de Escritório;Binney & Smith bloco de desenho, apagável;3;48,00;140,00;;;;;;;;
 04/01/17;Material de Escritório;Boston marcadores, apagável;2;9,00;27,00;;;;;;;;
 05/01/17;Material de Escritório;Binney & Smith apontador, aquarela;3;40,00;90,00;;;;;;;;
