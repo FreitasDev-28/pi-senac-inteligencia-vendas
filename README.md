@@ -33,11 +33,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-O dashboard lê `vendas.csv` usando `;` como separador e `utf-8-sig` como encoding.
-Os filtros de categoria e produto usam as colunas `Categoria` e `Produto`.
-A seção Produtos é gerada a partir dos produtos presentes nesse arquivo.
-Para habilitar o filtro de período e o histórico de faturamento, inclua uma coluna
-de data ou mês no CSV.
+O dashboard lê `Base_de_Vendas.csv` usando `;` como separador e `utf-8-sig` como
+encoding. A base deve conter as colunas `Data do Pedido`, `Categoria`, `Produto`,
+`Quantidade`, `Custo` e `Vendas`; valores monetários no padrão brasileiro
+(por exemplo, `1.234,00`) são convertidos durante a leitura. O dashboard também
+remove colunas extras `Unnamed` e cria filtros anuais e uma série mensal a partir
+da data do pedido.
 
 ---
 
