@@ -770,7 +770,7 @@ with col_categorias:
                 ],
             }
         )
-        col_donut, col_legenda = st.columns([1.15, 1])
+        col_donut, col_legenda = st.columns([1.15, 1], vertical_alignment="center")
         with col_donut:
             if total_faturamento:
                 grafico_categorias = go.Figure(
@@ -798,6 +798,7 @@ with col_categorias:
                     plot_bgcolor="rgba(0,0,0,0)",
                     paper_bgcolor="rgba(0,0,0,0)",
                     margin=dict(l=0, r=0, t=8, b=8),
+                    height=280,
                     annotations=[
                         dict(
                             text="<span style='font-size:10px;color:#64748B'>TOTAL</span>"
